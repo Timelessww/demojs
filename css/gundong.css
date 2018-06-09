@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#box {
+	width: 100%;
+	border: 0px solid #000;
+	height: 200px;
+	margin: 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#box ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#box ul li {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+}
